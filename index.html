@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/desktop.css">
+    <title>Compuertas Logicas</title>
+</head>
+<body>
+    <section class="containerCompuertas">
+        <section class="puerta and"> 
+            <h3> AND - Y </h3>
+            <img class="imgCompuerta" src="./img/and.webp" alt="Compuerta AND">
+            <div id="focoAnd" ></div>
+            <button id="and1" class="bnt And1" >0</button>
+            <button id="and2" class="bnt And2" >0</button>
+
+            <section class="tablaLogica">
+                <div>
+                    <h1 class="tabla">A</h1>
+                    <p class="andData1" >0</p>
+                </div>
+                <div>
+                    <h1 class="tabla">B</h1>
+                    <p class="andData2">0</p>
+                </div>
+                <div>
+                    <h1 class="tabla">Q</h1>
+                    <p class="andDataResult">0</p>
+                </div>
+            </section>
+
+        </section>
+
+        <section class="puerta or"> 
+            <h3> OR - O </h3>
+            <img class="imgCompuerta" src="./img/or.webp" alt="Compuerta OR">
+            <div id="focoOr" ></div>
+            <button id="or1" class="bnt or1" >0</button>
+            <button id="or2" class="bnt or2" >0</button>
+
+            <section class="tablaLogica">
+                <div>
+                    <h1 class="tabla">A</h1>
+                    <p class="orData1" >0</p>
+                </div>
+                <div>
+                    <h1 class="tabla">B</h1>
+                    <p class="orData2">0</p>
+                </div>
+                <div>
+                    <h1 class="tabla">Q</h1>
+                    <p class="orDataResult">0</p>
+                </div>
+            </section>
+        </section>
+
+        <section class="puerta xor"> 
+            <h3> XOR O-exclusiva </h3>
+            <img class="imgCompuerta" src="./img/xor.webp" alt="Compuerta XOR">
+            <div id="focoxor" ></div>
+            <button id="xor1" class="bnt xor1" >0</button>
+            <button id="xor2" class="bnt xor2" >0</button>
+
+            <section class="tablaLogica">
+                <div>
+                    <h1 class="tabla">A</h1>
+                    <p class="xorData1" >0</p>
+                </div>
+                <div>
+                    <h1 class="tabla">B</h1>
+                    <p class="xorData2">0</p>
+                </div>
+                <div>
+                    <h1 class="tabla">Q</h1>
+                    <p class="xorDataResult">0</p>
+                </div>
+            </section>
+        </section>
+
+        <section class="puerta not"> 
+            <h3> NOT Inversor </h3>
+            <img class="imgCompuerta" src="./img/not.webp" alt="Compuerta not">
+            <div id="foconot" ></div>
+
+            <button id="not1" class="bnt not1" >0</button>
+
+            <section class="tablaLogica">
+                <div>
+                    <h1 class="tabla">Q</h1>
+                    <p class="notData1" >0</p>
+                </div>
+                <div>
+                    <h1 class="tabla">Q'</h1>
+                    <p class="notDataResult">0</p>
+                </div>
+            </section>
+        </section>
+
+        <section class="puerta nand" > 
+            <h3> NAND </h3>
+            <img class="imgCompuerta" src="./img/nand.webp" alt="Compuerta nand">
+            <div id="foconand" ></div>
+            <button id="nand" class="bnt nand1" >0</button>
+            <button id="nand" class="bnt nand2" >0</button>
+
+            <section class="tablaLogica">
+                <div>
+                    <h1 class="tabla">A</h1>
+                    <p class="nandData1" >0</p>
+                </div>
+                <div>
+                    <h1 class="tabla">B</h1>
+                    <p class="nandData2">0</p>
+                </div>
+                <div>
+                    <h1 class="tabla">Q</h1>
+                    <p class="nandDataResult">0</p>
+                </div>
+            </section>
+        </section>
+
+        <section class="puerta nor"  > NOR </section>
+
+    </section>
+
+    <script type="module" src="./index.js" ></script>
+</body>
+</html>
