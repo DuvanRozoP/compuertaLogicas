@@ -57,13 +57,10 @@ class DomCompuertaLogica {
                 }
             });
         }
-        
     }
-
-    
 }
 
-function resultCompuertaLogica(interructor1, interructor2, puertoR, foco,caso){
+function resultCompuertaLogica(interructor1, interructor2, puertoR, foco, caso){
     let a;
     let b;
     if(interructor1 !== null) a = Number(interructor1.innerHTML);
@@ -135,6 +132,5 @@ function resultCompuertaLogica(interructor1, interructor2, puertoR, foco,caso){
             break;
     }
 }
-
 
 export default DomCompuertaLogica;

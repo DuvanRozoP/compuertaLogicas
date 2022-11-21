@@ -44,7 +44,8 @@ body{
 .or,
 .xor,
 .not,
-.nand{
+.nand,
+.nor{
     background-color: white;
     border-radius: 10px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -89,7 +90,10 @@ body{
 .notDataResult,
 .nandData2,
 .nandData1,
-.nandDataResult{
+.nandDataResult,
+.norData2,
+.norData1,
+.norDataResult{
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 20px;
@@ -109,7 +113,10 @@ body{
 .notDataResult,
 .nandData2,
 .nandData1,
-.nandDataResult{
+.nandDataResult,
+.norData2,
+.norData1,
+.norDataResult{
     font-size: 25px;
 }
 
@@ -201,14 +208,14 @@ body{
 
 .nand1{
     position: relative;
-    top: -196px;
-    left: -29px;
+    top: -233px;
+    left: -23px;
 }
 
 .nand2{
     position: relative;
-    top: -193px;
-    left: -29px;
+    top: -231px;
+    left: -23px;
 }
 
 #foconand{
@@ -219,4 +226,28 @@ body{
     position: relative;
     top: -138px;
     left: 220px; 
+}
+
+/* COMPUERTA NOR */
+
+.nor1{
+    position: relative;
+    top: -197px;
+    left: 19px;
+}
+
+.nor2{
+    position: relative;
+    top: -194px;
+    left: 19px;
+}
+
+#foconor{
+    width: 40px;
+    height: 40px;
+    background-color: darkorange;
+    border-radius: 10px;
+    position: relative;
+    top: -138px;
+    left: 250px; 
 }
